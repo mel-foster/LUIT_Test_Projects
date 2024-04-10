@@ -57,4 +57,5 @@ If you encounter any issues during the setup or deployment process, refer to the
 
 - [AWS Management Console](https://aws.amazon.com/console/)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [jakejarvis/s3-sync-action](https://github.com/jakejarvis/s3-sync-action): GitHub Action used in this project for syncing files with an S3 bucket.
 
