@@ -1,7 +1,5 @@
 # Static Website Deployment to Amazon S3 using GitHub Actions
 
-This repository contains the code and instructions for deploying a static website to Amazon S3 using GitHub Actions.
-
 ## Overview
 
 In this project, we demonstrate how to automate the deployment process of a static website to Amazon S3 using GitHub Actions. The static website consists of HTML, CSS, and optionally JavaScript files. By leveraging GitHub Actions, we ensure that any changes pushed to the repository trigger an automated deployment pipeline, making the deployment process efficient and hassle-free.
