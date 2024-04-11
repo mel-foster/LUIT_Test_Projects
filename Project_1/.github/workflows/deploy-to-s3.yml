@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
 
       - name: Install Dependencies
         run: |
@@ -19,7 +19,7 @@ jobs:
           # npm build or any build command
 
       - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
+        uses: aws-actions/configure-aws-credentials@v1
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
