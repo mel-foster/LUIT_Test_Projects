@@ -1,6 +1,6 @@
 # Level Up In Tech Beginner Projects Repository
 
-Welcome to the Level Up In Tech Beginner Projects repository! This repository is dedicated to testing various beginner-level projects for Level Up In Tech. These projects are designed for enrolled cohorts working on building and testing their skills in technology. These projects were assigned by Troy Ingram. 
+Welcome to the Level Up In Tech Beginner Projects repository! This repository is dedicated to testing various beginner-level projects for Level Up In Tech. These projects are designed for enrolled cohorts working on building and testing their skills in technology. These projects were assigned by Troy Ingram.  These projects were completed and tested by Mel Foster. Mel Foster is author of all readme.md files as well as the Wiki documentation page. 
 
 ## Overview
 
