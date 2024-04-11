@@ -25,7 +25,7 @@ jobs:
         env:
           AWS_S3_BUCKET: githubactions-s3-melfoster  # replace with your bucket name
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCES_KEY}}
           AWS_REGION: 'us-east-1'  # replace with the bucket's region
           SOURCE_DIR: 'public'   # replace with the directory of your built static site if not in root
 
