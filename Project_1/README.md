@@ -40,5 +40,6 @@ To deploy your static website to Amazon S3 using GitHub Actions, follow these st
 - [GitHub Actions](https://docs.github.com/en/actions): Learn more about GitHub Actions and how to automate your workflows.
 - [jakejarvis/s3-sync-action](https://github.com/jakejarvis/s3-sync-action): GitHub Action used in this project for syncing files with an S3 bucket.
 
+## License
 
-
+This project is licensed under the [MIT License](LICENSE).
