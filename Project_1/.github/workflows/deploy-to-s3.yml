@@ -16,12 +16,12 @@ jobs:
       - name: Configure AWS Credentials and Deploy to S3
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          AWS_S3_BUCKET: githubactions-s3-melfoster  # replace with your bucket name
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCES_KEY}}
-          AWS_REGION: 'us-east-1'  # replace with the bucket's region
-          SOURCE_DIR: 'Project_1'   # replace with the directory of your built static site if not in root
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }} # corrected typo
+          aws-region: 'us-east-1'  # replace with the bucket's region
 
+      - name:  Deploy static site to S3 bucket
+        run: aws s3 sync ./public/ S3://githubactions-s3-melfoster --delete #replace with your bucket name        
 
 
 
